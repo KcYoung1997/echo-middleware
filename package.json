@@ -1,0 +1,16 @@
+{
+  "name": "echo-middleware",
+  "version": "0.0.1",
+  "description": "Echos back the content recieved in a web request.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Keiran Young",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.17.1",
+    "jest": "^26.6.3",
+    "supertest": "^6.0.1"
+  }
+}
