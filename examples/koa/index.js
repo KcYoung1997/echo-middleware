@@ -6,7 +6,7 @@ const echo = require('../../');
 // Koa functions differently to other Node web frameworks, below is a method for compatibility
 app.use((ctx, next) => {
     if(ctx.path === '/echo') {
-        ctx.req.originalUrl = ctx.req.url;
+        ctx.status = 200;
         echo(ctx.req, ctx.res, next); 
     }
     else next();
