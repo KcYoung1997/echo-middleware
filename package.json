@@ -9,8 +9,10 @@
   "author": "Keiran Young",
   "license": "ISC",
   "devDependencies": {
+    "connect": "^3.7.0",
     "express": "^4.17.1",
     "jest": "^26.6.3",
+    "koa": "^2.13.0",
     "supertest": "^6.0.1"
   }
 }
