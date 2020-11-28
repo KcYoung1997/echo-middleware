@@ -1,6 +1,6 @@
 {
   "name": "echo-middleware",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Echos back the content recieved in a web request.",
   "main": "index.js",
   "scripts": {
