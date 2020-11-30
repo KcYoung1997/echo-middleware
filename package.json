@@ -1,6 +1,6 @@
 {
   "name": "echo-middleware",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Echos back the headers recieved in web requests.",
   "main": "index.js",
   "scripts": {
